@@ -1,0 +1,10 @@
+flask
+flask-sqlalchemy
+flask-migrate
+flask-cors
+gunicorn
+#tensorflow >= 2.90
+numpy
+pandas
+scikit-learn
+nltk

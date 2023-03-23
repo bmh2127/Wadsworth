@@ -1,0 +1,62 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+label {
+    font-size: 1.2rem;
+}
+
+input {
+    font-size: 1.1rem;
+    padding: 5px 10px;
+    margin: 0.5rem;
+}
+
+button {
+    font-size: 1.1rem;
+    background-color: #1abc9c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #16a085;
+}
+
+button:active {
+    background-color: #139a7b;
+}
+
+/* Timer specific styling */
+#timer-label {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 1rem;
+}
+
+#procrastination-time-label {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 1rem;
+}

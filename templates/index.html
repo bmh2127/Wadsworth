@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Scheduler</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <h1>Welcome to Task Scheduler</h1>
+    <p>This application will help you manage your tasks and stay productive.</p>
+
+    <h2>Features:</h2>
+    <ul>
+        <li>Time Tracker</li>
+        <li>Focus Mode</li>
+        <li>Break Reminders</li>
+        <li>Goal Setting</li>
+        <li><a href="{{ url_for('pomodoro') }}">Pomodoro Timer</a></li>
+        <li>Notes & Reflections</li>
+        <li>Data Export & Sync</li>
+    </ul>
+</body>
+</html>
